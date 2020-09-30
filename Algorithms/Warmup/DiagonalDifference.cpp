@@ -11,6 +11,7 @@
 #include <algorithm>
 using namespace std;
 
+//returns the sum of primary Diagonal
 int sumPrimaryDiagonal(vector<vector<int>> matrix, int size)
 {
     int sum = 0;
@@ -22,6 +23,7 @@ int sumPrimaryDiagonal(vector<vector<int>> matrix, int size)
     return sum;
 }
 
+//returns the sum of second Diagonal
 int sumSecondDiagonal(vector<vector<int>> matrix, int size)
 {
     int sum = 0;
